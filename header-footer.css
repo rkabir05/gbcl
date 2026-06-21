@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.creadit,
+.footer-bg,
+.container-fluid.header-part {
+    background: cornflowerblue;
+}
+
+div#navbarNavDropdown>ul>li>a:hover {
+    color: white;
+    text-decoration: underline;
+}
+

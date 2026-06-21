@@ -20,13 +20,4 @@ body {
    color: black;
 }
 
-.footer-bg,
-.container-fluid.header-part {
-    background: cornflowerblue;
-}
-
-div#navbarNavDropdown>ul>li>a:hover {
-    color: white;
-    text-decoration: underline;
-}
 
