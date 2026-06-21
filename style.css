@@ -7,8 +7,8 @@
 
 @font-face {
     font-family: "SolaimanLipiNormal";
-    src: url('fonts/solaimanlipi_20-04-07.eot');
-    src: url('fonts/solaimanlipi_20-04-07.eot')format('embedded-opentype'), url('fonts/solaimanlipi_20-04-07.woff') format('woff'), url('fonts/solaimanlipi_20-04-07.ttf') format('truetype'), url('fonts/solaimanlipi_20-04-07.svg#SolaimanLipiNormal') format('svg');
+    src: url('assets/fonts/solaimanlipi_20-04-07.eot');
+    src: url('assets/fonts/solaimanlipi_20-04-07.eot')format('embedded-opentype'), url('assets/fonts/solaimanlipi_20-04-07.woff') format('woff'), url('assets/fonts/solaimanlipi_20-04-07.ttf') format('truetype'), url('assets/fonts/solaimanlipi_20-04-07.svg#SolaimanLipiNormal') format('svg');
 }
 
 body {
