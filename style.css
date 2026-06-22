@@ -21,3 +21,25 @@ body {
 }
 
 
+.theam-bg{
+    background-image: url("assets/images/leade-theam.jpg");
+    background-size: cover;
+    opacity: 1;
+    background-attachment: fixed;
+    height: 800px;
+}
+
+.explore {
+    width: 34%;
+}
+
+.learn-more {
+    width: 28%;
+}
+
+.item-lead {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+
