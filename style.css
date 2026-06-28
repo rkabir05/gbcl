@@ -43,3 +43,38 @@ body {
 }
 
 
+
+i.fa-solid.fa-award {
+    color: #f1ad4b;
+    background: #fdeed4;
+}
+
+
+i.bi.bi-people{
+    background: #d3e0fb;
+    color: #2463eb;
+}
+
+
+i.fa-sharp.fa-solid.fa-suitcase {
+    color: #ec4699;
+    background: #fbdaeb;
+}
+
+i.fa-solid.fa-business-time {
+    color: #14bad7;
+    background: #cdf0f7;
+}
+
+.event-bg {
+    background: #f7f7f7;
+}
+
+
+.title-line {
+    width: 120px;
+    height: 4px;
+    background: #5a9bf6;
+    border-radius: 20px;
+}
+
