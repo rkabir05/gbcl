@@ -1,0 +1,68 @@
+@media only screen and (max-width:768px) {
+
+    body {
+    /* font-family: "Baloo Da 2", sans-serif; */
+    font-family: SolaimanLipiNormal;
+    font-size: 16px;
+    line-height: 150%;
+   overflow-x: hidden;
+   color: #333;
+}
+
+span.navbar-toggler-icon {
+    font-size: 13px;
+    color: white;
+}
+
+
+.header-logo,
+.footer-logo {
+    width: 50%;
+}
+
+i.fa-brands.fa-whatsapp,
+i.fa-brands.fa-instagram,
+i.fa-brands.fa-youtube,
+i.fa-brands.fa-x-twitter,
+i.fa-brands.fa-facebook-f {
+    font-size: 18px;
+}
+
+
+.excellence{
+    width: 219px !important;
+}
+
+.explore {
+    width: 60%;
+    padding: 0;
+}
+
+.learn-more {
+    width: 40%;
+    padding: 0;
+}
+
+.learn-more {
+    width: 25%;
+    margin-top: 3;
+}
+
+
+.learn-more-box,
+.explore-box {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.item-lead {
+    font-size: 36px;
+}
+
+.item-lead-text {
+    font-size: 18px !important;
+}
+
+}
+
+

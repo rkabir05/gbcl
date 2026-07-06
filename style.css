@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "SolaimanLipiNormal";
+    src: url('assets/fonts/solaimanlipi_20-04-07.eot');
+    src: url('assets/fonts/solaimanlipi_20-04-07.eot')format('embedded-opentype'), url('assets/fonts/solaimanlipi_20-04-07.woff') format('woff'), url('assets/fonts/solaimanlipi_20-04-07.ttf') format('truetype'), url('assets/fonts/solaimanlipi_20-04-07.svg#SolaimanLipiNormal') format('svg');
+}
+
+body {
+    /* font-family: "Baloo Da 2", sans-serif; */
+    font-family: SolaimanLipiNormal;
+    font-size: 15px;
+    line-height: 150%;
+   overflow-x: hidden;
+   color: black;
+}
+
+
+.theme-bg{
+    background-image: url("assets/images/leade-theme.jpg");
+    background-size: cover;
+    opacity: 1;
+    background-attachment: fixed;
+    height: 800px;
+}
+
+.explore {
+    width: 34%;
+}
+
+.learn-more {
+    width: 28%;
+}
+
+.item-lead {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.nav-text {
+    color: #FFEB3B;
+}
+
+.dropdown-bg {
+    background-color: #5a9bf6;
+}
+
+
+.footer-logo img,
+.header-logo img{
+width: 70px;
+}
+
+i.fa-solid.fa-award {
+    color: #f1ad4b;
+    background: #fdeed4;
+    height: 40px;
+    width: 40px;
+}
+
+
+i.bi.bi-people{
+    background: #d3e0fb;
+    color: #2463eb;
+    height: 40px;
+    width: 40px;
+}
+
+
+i.fa-sharp.fa-solid.fa-suitcase {
+    color: #ec4699;
+    background: #fbdaeb;
+    height: 40px;
+    width: 40px;    
+}
+
+i.fa-solid.fa-business-time {
+    color: #14bad7;
+    background: #cdf0f7;
+    height: 40px;
+    width: 40px;    
+}
+
+
+.event-bg {
+    background: #f7f7f7;
+}
+
+
+.title-line {
+    width: 172px;
+    height: 4px;
+    background: #5a9bf6;
+    border-radius: 20px;
+}
+
+.footer-icon {
+    height: 35px;
+    width: 35px;
+    background: white;
+    border-radius: 50px;
+    align-items: center !important;
+    display: flex !important;
+    justify-content: center;
+}
