@@ -176,3 +176,284 @@ i.fa-solid.fa-business-time {
 .social-icons a:hover{
     color:#e67e22;
 }
+
+
+
+
+
+
+
+
+.lead-title {
+    font-size: 46px;
+    font-weight: 200;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.news-title {
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.news-summary {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.news-date {
+    font-size: 14px;
+    color: #666;
+}
+
+
+h5.section-title {
+    color: #0176CB;
+}
+
+
+
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.service-card{
+    width:420px;
+    height:570px;
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+.service-card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.6s;
+}
+
+/* Overlay */
+
+.overlay{
+    position:absolute;
+    inset:15px;
+    /* background:rgba(0,110,210,.82); */
+    transition:.5s;
+}
+
+/* Plus Button */
+
+/* .plus{
+    position:absolute;
+    top:0;
+    right:0;
+    width:50px;
+    height:50px;
+    background:#222;
+    color:#fff;
+    text-decoration:none;
+    font-size:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:.4s;
+} */
+
+/* Text */
+
+
+/* .plus{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background: #222;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-decoration: none;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+
+    transition: .4s ease;
+} */
+
+.content{
+    position:absolute;
+    left:40px;
+    bottom:40px;
+    color:#fff;
+    transition:.5s;
+}
+
+.content span{
+    display:block;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.content h3{
+    font-size:42px;
+    font-weight:700;
+    line-height:1.15;
+}
+
+/* Hover */
+
+.service-card:hover img{
+    transform:scale(1.12);
+}
+
+.service-card:hover .overlay{
+    background:rgba(0,110,210,.92);
+}
+
+.service-card:hover .plus{
+    background:#fff;
+    color:#0077db;
+    transform:rotate(90deg);
+
+    position:absolute;
+    top:0;
+    right:0;
+    width:50px;
+    height:50px;
+    background:#222;
+    color:#fff;
+    text-decoration:none;
+    font-size:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:.4s;    
+}
+
+.service-card:hover .content{
+    transform:translateY(-15px);
+}
+
+
+
+
+
+
+.video-box{
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+}
+
+.video-box img{
+    width: 100%;
+    display: block;
+    transition: .5s;
+}
+
+.video-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+/* বাইরের বর্ডার */
+.video-overlay::before{
+    content: "";
+    position: absolute;
+    width: 92%;
+    height: 92%;
+    border: 2px solid rgba(255,255,255,.15);
+    transform: scale(.8);
+    transition: .5s;
+}
+
+/* ভেতরের বর্ডার */
+.video-overlay::after{
+    content: "";
+    position: absolute;
+    width: 68%;
+    height: 68%;
+    border: 2px solid rgba(255,255,255,.25);
+    transform: scale(.8);
+    transition: .7s;
+}
+
+/* Play Button */
+.play-btn{
+    width: 95px;
+    height: 95px;
+    background: #0b83d8;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 35px;
+    transform: scale(.3) rotate(-180deg);
+    transition: .5s;
+    position: relative;
+    z-index: 2;
+}
+
+/* Hover Effect */
+.video-box:hover img{
+    transform: scale(1.08);
+}
+
+.video-box:hover .video-overlay{
+    opacity: 1;
+    visibility: visible;
+}
+
+.video-box:hover .video-overlay::before,
+.video-box:hover .video-overlay::after{
+    transform: scale(1);
+}
+
+.video-box:hover .play-btn{
+    transform: scale(1) rotate(0deg);
+    animation: pulse 1.5s infinite;
+}
+
+/* Pulse Animation */
+@keyframes pulse{
+
+    0%{
+        box-shadow:0 0 0 0 rgba(11,131,216,.7);
+    }
+
+    70%{
+        box-shadow:0 0 0 25px rgba(11,131,216,0);
+    }
+
+    100%{
+        box-shadow:0 0 0 0 rgba(11,131,216,0);
+    }
+
+}
+
+
+
+
+
+
