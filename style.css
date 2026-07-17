@@ -21,7 +21,7 @@ body {
 }
 
 
-.theme-bg{
+.main-part-bg{
     background-image: url("assets/images/leade-theme.jpg");
     background-size: cover;
     opacity: 1;
@@ -451,9 +451,3 @@ h5.section-title {
     }
 
 }
-
-
-
-
-
-
