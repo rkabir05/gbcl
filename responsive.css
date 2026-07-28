@@ -257,6 +257,9 @@ h5.card-title.mb-1 {
     align-items: center;
 }
 
+div#navbarNavDropdown {
+    margin-top: 96px;
+}
 
 }
 
