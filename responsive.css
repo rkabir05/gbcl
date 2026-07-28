@@ -1,0 +1,263 @@
+@media only screen and (max-width:768px) {
+
+    body {
+    /* font-family: "Baloo Da 2", sans-serif; */
+    font-family: SolaimanLipiNormal;
+    font-size: 14px;
+    line-height: 150%;
+   overflow-x: hidden;
+   color: #333;
+}
+
+span.navbar-toggler-icon {
+    font-size: 13px;
+    color: white;
+}
+
+
+.header-logo {
+    min-width: 0;
+}
+
+.header-navbar {
+    min-width: 0;
+}
+
+.footer-logo {
+    width: 50%;
+}
+
+i.fa-brands.fa-whatsapp,
+i.fa-brands.fa-instagram,
+i.fa-brands.fa-youtube,
+i.fa-brands.fa-x-twitter,
+i.fa-brands.fa-facebook-f {
+    font-size: 18px;
+}
+
+
+.excellence{
+    width: 219px !important;
+}
+
+.explore {
+    width: 60%;
+    padding: 0;
+}
+
+.learn-more {
+    width: 40%;
+    padding: 0;
+}
+
+.learn-more {
+    width: 25%;
+    margin-top: 3;
+}
+
+
+.learn-more-box,
+.explore-box {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.item-lead {
+    font-size: 28px;
+}
+
+.item-lead-text {
+    font-size: 14px !important;
+}
+
+.w-mr-25{
+    width:25% !important;
+}
+
+.w-mr-50{
+    width:50% !important;
+}
+
+.w-mr-75{
+    width:75% !important;
+}
+
+
+.w-mr-100 {
+    width: 100% !important;
+}
+
+
+.lead-title {
+    font-size: 34px;
+    font-weight: 200;
+}
+
+/* about */
+
+.about-title {
+    font-size: 28px;
+}
+
+.about-lead-text {
+    font-size: 16px;
+}
+
+
+.btn-sm-mr {
+    padding: 4px 12px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 21px;
+}
+
+.section-title {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+.about-feature i {
+    font-size: 22px;
+    color: #0d6efd;
+}
+
+
+
+/* people */
+
+.people-card img,
+.alumni-card img{
+    height:220px;
+}
+
+.advisor-box{
+    padding:25px;
+    text-align:center;
+}
+
+.join-box{
+    text-align:center;
+}
+
+/* Search */
+
+.search-card img{
+    height:110px;
+}
+
+.search-card{
+    padding:18px;
+}
+
+.search-card h4{
+    font-size:18px;
+}
+
+.search-hero h1{
+    font-size:34px;
+}
+
+.btn-search{
+    width:100%;
+    border-radius:8px;
+    margin-top:10px;
+    height:45px;
+}
+
+/* archive */
+
+.archive-card img{
+    height:180px;
+}
+
+.archive-content{
+    padding:20px;
+}
+
+.archive-content h4{
+    font-size:20px;
+}
+
+
+/* category */
+
+.category-card img{
+    height:190px;
+}
+
+.category-content{
+    padding:20px;
+}
+
+.category-content h4{
+    font-size:1.15rem;
+}
+
+.category-meta{
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.form-select{
+    width:100% !important;
+}
+
+/* contact */
+
+.contact-info,
+.contact-form{
+    padding:25px;
+}
+
+.contact-item{
+    gap:15px;
+}
+
+.contact-item i{
+    width:48px;
+    height:48px;
+    font-size:18px;
+}
+
+.map-box iframe{
+    height:300px;
+}
+
+.icon-box {
+    width: 30px;
+    height: 30px;
+    background: #0d6efd;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+
+h5.card-title.mb-1 {
+    font-size: 16px;
+}
+
+
+
+h5.card-title.mb-1 {
+    font-size: 15px;
+    align-items: center;
+}
+
+.card-body {
+    align-items: center;
+}
+
+
+}
+
+
