@@ -40,6 +40,10 @@
 
 
 
+         <!-- swiper css start -->
+         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">  
+         <!-- swiper css end -->
+             
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive.css">
         <link rel="stylesheet" href="header-footer.css">
@@ -56,7 +60,7 @@
                     <!-- Main Logo start -->
                     <div class="col-md-4 col header-logo d-flex align-items-center justify-content-start">
                         <a class="logo-link text-decoration-none text-white" href="index.html">
-                            <img class="img-fluid rounded-circle" loading="lazy" src="assets/images/main-logo-of-gulshanbusinessclub.jpeg" alt="Main Logo">
+                            <img class="img-fluid" loading="lazy" src="assets/images/main-logo-of-gulshanbusinessclub.jpeg" alt="Main Logo">
                         </a>
                         <div class="logo-name text-white ms-3">
                             <a href="index.html" class="text-decoration-none text-white">
@@ -72,6 +76,9 @@
                         <nav class="navbar navbar-expand-md navbar-dark p-0 w-100 d-flex justify-content-end">
                             <button class="navbar-toggler ms-auto border-0" type="button" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
                                 <div class="navbar-toggler-icon"></div>
+
+                            
+
                             </button>
 
                             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -263,7 +270,7 @@
             <div class="row g-4">
                 <div class="col-md-4 col-12">
                     <a href="index.html" class="d-inline-flex align-items-center gap-2 text-white text-decoration-none mb-3">
-                        <img src="assets/images/main-logo-of-gulshanbusinessclub.jpeg" alt="Logo" width="48" class="rounded-circle border border-white-25">
+                        <img width="48" class="logo-link-footer" src="assets/images/main-logo-of-gulshanbusinessclub.jpeg" alt="Logo">
                         <div class="fs-5 fw-semibold">Gulshan Business Club Limited (GBCL)</div>
                     </a>
                     <p class="text-white-50">Gulshan Business Club is committed to empowering students, building leadership, and creating meaningful business connections in Dhaka.</p>
@@ -308,10 +315,10 @@
             <!-- item footer end  -->
             <!-- Copyright start  -->
             <div class="row border-top border-white-10 mt-4 pt-4 text-center text-white">
-                <div class="col-6 d-flex justify-content-start">
+                <div class="col-12 d-flex justify-content-center mb-1">
                     © 2024 Gulshan Business Club. All rights reserved.
                 </div>
-                <div class="col-6 d-flex justify-content-end">
+                <div class="col-12 d-flex justify-content-center">
                     <a href="https://webnewsdesign.com" target="_blank" rel="noopener" class="text-decoration-none"><p class="text-white">Designed & Developed by Webnewsdesign </p></a>
                 </div>                          
             </div>  
@@ -320,41 +327,9 @@
             </div>
         <!-- Item footer box end -->                     
 
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/app.js"></script>
 
-
-    
-        <script>
-            $('.bxslider-business').bxSlider({
-                mode: 'horizontal',
-                minSlides: 4,
-                maxSlides: 4,
-                moveSlides: 6,
-                slideWidth: 450,
-                slideMargin: 20,
-                pager: false,
-                controls: false,
-                infiniteLoop: true
-            });
-
-            $('.bxslider-logo').bxSlider({
-
-                minSlides: window.innerWidth < 576 ? 1 :
-                        window.innerWidth < 768 ? 2 :
-                        window.innerWidth < 992 ? 3 : 5,
-
-                maxSlides: window.innerWidth < 576 ? 1 :
-                        window.innerWidth < 768 ? 2 :
-                        window.innerWidth < 992 ? 3 : 5,
-
-                minSlides: 4,
-                maxSlides: 4,            
-                slideWidth:170,
-                slideMargin:10,
-                ticker:true,
-                speed:30000
-
-            });
-        </script>
     </body>
 
 </html>
